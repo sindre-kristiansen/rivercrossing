@@ -14,13 +14,14 @@ import (
 )
 
 func main() {
-	fmt.Println(event.InitialState())
-	event.PutInBoat("kylling")
-	event.CrossRiver(0)
-	event.ViewState()
-	event.CrossRiver(1)
-	event.ViewState()
-	event.TakeOut()
-	event.CrossRiver(1)
-	event.ViewState()
+	fmt.Println(rivercrossing.InitialState())
+	rivercrossing.PutInBoat("kylling")
+	rivercrossing.CrossRiver(0)
+	rivercrossing.ViewState()
+	rivercrossing.CrossRiver(1)
+	rivercrossing.ViewState()
+	rivercrossing.TakeOut()
+	rivercrossing.CrossRiver(1)
+	rivercrossing.ViewState()
+
 }
