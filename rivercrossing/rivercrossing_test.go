@@ -1,7 +1,7 @@
 // put(item), getin(), getout(), crossriver(), takeout(item)
 //Start() or setup(), reset() osv.
 
-package event
+package rivercrossing
 
 import (
 	"fmt"
